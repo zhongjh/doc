@@ -1,0 +1,8 @@
+﻿
+Library程序集
+com.zhongjh.Library.BaseClass			基类
+com.zhongjh.Library.Common			公共
+com.zhongjh.Library.Configuration		配置工具
+com.zhongjh.Library.Database			数据库
+com.zhongjh.Library.Server			服务
+

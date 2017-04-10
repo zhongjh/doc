@@ -1,0 +1,27 @@
+﻿
+安装数据库2012
+1.数据库服务类移过来
+2.用户权限系统移过来
+3.
+
+
+远程服务类
+1.支持http
+2.单模式，多模式
+3.
+
+
+
+
+
+
+//服务端
+TcpServerChannel channel = new TcpServerChannel(Convert.ToInt32(sTCPIP));
+ChannelServices.RegisterChannel(channel, false);
+RemotingConfiguration.CustomErrorsMode = CustomErrorsModes.Off;
+RemotingConfiguration.RegisterWellKnownServiceType(typeof(BaseInterface.BaseActive), "BaseActive", WellKnownObjectMode.SingleCall);
+
+//客户端
+ RemotingConfiguration.CustomErrorsMode = CustomErrorsModes.Off;
+RemotingConfiguration.RegisterWellKnownClientType(typeof(BaseInterface.BaseActive), "tcp://192.168.13.111:8098/BaseActive");
+
