@@ -1,0 +1,14 @@
+com.zhongjh.DataBase  数据库
+com.zhongjh.DataBase.Enum    数据库枚举
+com.zhongjh.DataBase.Entity  数据库实体类
+com.zhongjh.DataBase.Field   字段
+
+
+com.zhongjh.Common 公共库
+com.zhongjh.Common.CFile   文件
+com.zhongjh.Common.Error   错误
+com.zhongjh.Common.Entity  实体类
+
+
+com.zhongjh.ConfigTools 配置工具
+com.zhongjh.ConfigTools.DbConfigTool 数据库配置工具
